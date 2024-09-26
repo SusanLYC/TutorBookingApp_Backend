@@ -1,0 +1,98 @@
+2024-09-02T10:15:42.195+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] c.f.tutorb.TutorBookingAppApplication    : Starting TutorBookingAppApplication using Java 22.0.2 with PID 14751 (/Users/suliu/Downloads/tutor-booking-app/target/classes started by suliu in /Users/suliu/Downloads/tutor-booking-app)
+2024-09-02T10:15:42.195+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] c.f.tutorb.TutorBookingAppApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-09-02T10:15:42.428+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-02T10:15:42.445+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 3 JPA repository interfaces.
+2024-09-02T10:15:42.572+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-02T10:15:42.574+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-02T10:15:42.574+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-02T10:15:42.584+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] o.a.c.c.C.[Tomcat-32].[localhost].[/]    : Initializing Spring embedded WebApplicationContext
+2024-09-02T10:15:42.584+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 387 ms
+2024-09-02T10:15:42.632+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-02T10:15:42.633+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-137 - Starting...
+2024-09-02T10:15:42.650+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-137 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45eed5c
+2024-09-02T10:15:42.650+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-137 - Start completed.
+2024-09-02T10:15:42.802+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02T10:15:42.967+08:00  WARN 14751 --- [tutor-booking-app] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-02T10:15:42.999+08:00 DEBUG 14751 --- [tutor-booking-app] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 16 mappings in 'requestMappingHandlerMapping'
+2024-09-02T10:15:43.022+08:00 DEBUG 14751 --- [tutor-booking-app] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-02T10:15:43.035+08:00 DEBUG 14751 --- [tutor-booking-app] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-02T10:15:43.042+08:00 DEBUG 14751 --- [tutor-booking-app] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-02T10:15:43.099+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-02T10:15:43.115+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-02T10:15:43.118+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] c.f.tutorb.TutorBookingAppApplication    : Started TutorBookingAppApplication in 0.944 seconds (process running for 280165.606)
+2024-09-02T10:15:43.119+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-02T10:15:56.632+08:00  INFO 14751 --- [tutor-booking-app] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-02T10:15:56.641+08:00  INFO 14751 --- [tutor-booking-app] [Thread-546] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02T10:15:56.642+08:00  INFO 14751 --- [tutor-booking-app] [Thread-546] com.zaxxer.hikari.HikariDataSource       : HikariPool-137 - Shutdown initiated...
+2024-09-02T10:15:56.650+08:00  INFO 14751 --- [tutor-booking-app] [Thread-546] com.zaxxer.hikari.HikariDataSource       : HikariPool-137 - Shutdown completed.
+2024-09-02T10:15:56.739+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] c.f.tutorb.TutorBookingAppApplication    : Starting TutorBookingAppApplication using Java 22.0.2 with PID 14751 (/Users/suliu/Downloads/tutor-booking-app/target/classes started by suliu in /Users/suliu/Downloads/tutor-booking-app)
+2024-09-02T10:15:56.740+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] c.f.tutorb.TutorBookingAppApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-09-02T10:15:56.895+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-02T10:15:56.912+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 3 JPA repository interfaces.
+2024-09-02T10:15:57.030+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-02T10:15:57.031+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-02T10:15:57.031+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-02T10:15:57.043+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] o.a.c.c.C.[Tomcat-32].[localhost].[/]    : Initializing Spring embedded WebApplicationContext
+2024-09-02T10:15:57.043+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 302 ms
+2024-09-02T10:15:57.095+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-02T10:15:57.096+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-138 - Starting...
+2024-09-02T10:15:57.110+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-138 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37f4ea02
+2024-09-02T10:15:57.110+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-138 - Start completed.
+2024-09-02T10:15:57.282+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02T10:15:57.442+08:00  WARN 14751 --- [tutor-booking-app] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-02T10:15:57.471+08:00 DEBUG 14751 --- [tutor-booking-app] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 16 mappings in 'requestMappingHandlerMapping'
+2024-09-02T10:15:57.490+08:00 DEBUG 14751 --- [tutor-booking-app] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-02T10:15:57.501+08:00 DEBUG 14751 --- [tutor-booking-app] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-02T10:15:57.507+08:00 DEBUG 14751 --- [tutor-booking-app] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-02T10:15:57.546+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-02T10:15:57.564+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-02T10:15:57.567+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] c.f.tutorb.TutorBookingAppApplication    : Started TutorBookingAppApplication in 0.846 seconds (process running for 280180.055)
+2024-09-02T10:15:57.569+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-02T10:17:04.619+08:00  INFO 14751 --- [tutor-booking-app] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-02T10:17:04.631+08:00  INFO 14751 --- [tutor-booking-app] [Thread-550] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02T10:17:04.631+08:00  INFO 14751 --- [tutor-booking-app] [Thread-550] com.zaxxer.hikari.HikariDataSource       : HikariPool-138 - Shutdown initiated...
+2024-09-02T10:17:04.639+08:00  INFO 14751 --- [tutor-booking-app] [Thread-550] com.zaxxer.hikari.HikariDataSource       : HikariPool-138 - Shutdown completed.
+2024-09-02T10:17:04.740+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] c.f.tutorb.TutorBookingAppApplication    : Starting TutorBookingAppApplication using Java 22.0.2 with PID 14751 (/Users/suliu/Downloads/tutor-booking-app/target/classes started by suliu in /Users/suliu/Downloads/tutor-booking-app)
+2024-09-02T10:17:04.740+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] c.f.tutorb.TutorBookingAppApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-09-02T10:17:04.965+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-02T10:17:04.982+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 3 JPA repository interfaces.
+2024-09-02T10:17:05.106+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-02T10:17:05.106+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-02T10:17:05.107+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-02T10:17:05.120+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] o.a.c.c.C.[Tomcat-32].[localhost].[/]    : Initializing Spring embedded WebApplicationContext
+2024-09-02T10:17:05.120+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 377 ms
+2024-09-02T10:17:05.173+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-02T10:17:05.173+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-139 - Starting...
+2024-09-02T10:17:05.190+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-139 - Added connection com.mysql.cj.jdbc.ConnectionImpl@241c0d74
+2024-09-02T10:17:05.191+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-139 - Start completed.
+2024-09-02T10:17:05.334+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02T10:17:05.514+08:00  WARN 14751 --- [tutor-booking-app] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-02T10:17:05.541+08:00 DEBUG 14751 --- [tutor-booking-app] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 16 mappings in 'requestMappingHandlerMapping'
+2024-09-02T10:17:05.563+08:00 DEBUG 14751 --- [tutor-booking-app] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-02T10:17:05.580+08:00 DEBUG 14751 --- [tutor-booking-app] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-02T10:17:05.585+08:00 DEBUG 14751 --- [tutor-booking-app] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-02T10:17:05.626+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-02T10:17:05.638+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-02T10:17:05.642+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] c.f.tutorb.TutorBookingAppApplication    : Started TutorBookingAppApplication in 0.92 seconds (process running for 280248.132)
+2024-09-02T10:17:05.643+08:00  INFO 14751 --- [tutor-booking-app] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-02T10:21:28.195+08:00  INFO 14751 --- [tutor-booking-app] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-32].[localhost].[/]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-02T10:21:28.197+08:00  INFO 14751 --- [tutor-booking-app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-02T10:21:28.206+08:00 DEBUG 14751 --- [tutor-booking-app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-09-02T10:21:28.206+08:00 DEBUG 14751 --- [tutor-booking-app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-09-02T10:21:28.208+08:00 DEBUG 14751 --- [tutor-booking-app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-09-02T10:21:28.255+08:00 DEBUG 14751 --- [tutor-booking-app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5ef93620
+2024-09-02T10:21:28.258+08:00 DEBUG 14751 --- [tutor-booking-app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@688d6d3b
+2024-09-02T10:21:28.265+08:00 DEBUG 14751 --- [tutor-booking-app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-09-02T10:21:28.266+08:00  INFO 14751 --- [tutor-booking-app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 68 ms
+2024-09-02T10:21:28.290+08:00 DEBUG 14751 --- [tutor-booking-app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/session", parameters={}
+2024-09-02T10:21:28.293+08:00 DEBUG 14751 --- [tutor-booking-app] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.fdmgroup.tutorb.controller.SessionController#getSessions()
+2024-09-02T10:21:28.338+08:00  INFO 14751 --- [tutor-booking-app] [http-nio-8080-exec-1] c.f.tutorb.controller.SessionController  : Fetching all sessions with tutor info
+2024-09-02T10:21:28.339+08:00  INFO 14751 --- [tutor-booking-app] [http-nio-8080-exec-1] c.f.tutorb.services.SessionService       : Fetching all sessions with tutor information
+2024-09-02T10:21:28.339+08:00  INFO 14751 --- [tutor-booking-app] [http-nio-8080-exec-1] c.f.tutorb.services.SessionService       : Fetching all sessions
+2024-09-02T10:21:28.488+08:00 DEBUG 14751 --- [tutor-booking-app] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-09-02T10:21:28.499+08:00 DEBUG 14751 --- [tutor-booking-app] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[{duration=3.0, endDate=2024-10-03, sessionDescription=Learn how to prompt gpt to write the ppt, ses (truncated)...]
+2024-09-02T10:21:28.542+08:00 DEBUG 14751 --- [tutor-booking-app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-02T10:45:43.559+08:00  INFO 14751 --- [tutor-booking-app] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 29 class path changes (0 additions, 29 deletions, 0 modifications)
+2024-09-02T10:45:43.611+08:00  INFO 14751 --- [tutor-booking-app] [Thread-554] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02T10:45:43.618+08:00  INFO 14751 --- [tutor-booking-app] [Thread-554] com.zaxxer.hikari.HikariDataSource       : HikariPool-139 - Shutdown initiated...
+2024-09-02T10:45:43.679+08:00  INFO 14751 --- [tutor-booking-app] [Thread-554] com.zaxxer.hikari.HikariDataSource       : HikariPool-139 - Shutdown completed.
